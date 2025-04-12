@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Raiqahuae</title>
+
+        <!-- <link rel="stylesheet" href="contactus.css"> -->
+        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="Latenight-responsive.css"> -->
+
+        <!-- box-icons link -->
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <!-- remix-icons link -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet" />
+
+        <!-- google fonts link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Static Brochure Button -->
+        <button id="brochure" class="brochure"
+            onclick="location.href='brochure.pdf';"
+            title="brochure.pdf">Brochure</button>
+
+        <!-- Static What's up Button -->
+        <button id="whatsupBtn" class="whatsupBtn" title="Go to What's up"><i
+                class="ri-whatsapp-line"></i></button>
+
+        <!-- Scroll To Top Button -->
+        <button onclick="topFunction()" id="topBtn" class="topBtn"
+            title="Go to top"><i class="ri-arrow-drop-up-line"></i></button>
+
+        <!-- scroll header -->
+        <header id="scroll-header" class="scroll-header">
+            <a href="#" class="scroll-logo">
+                <img src="img/raiqah-logo.png">
+            </a>
+
+            <ul class="scroll-navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+
+            <div class="scroll-nav-right">
+                <div class="scroll-whatup-icon">
+                    <a href="#"><i class="ri-whatsapp-line"></i></a>
+                </div>
+
+                <div class="scroll-phone-icon">
+                    <p class="scroll-need">Need help? Talk to an expert</p>
+                    <a href="#"><i class="ri-phone-fill">
+                            <p class="scroll-num">+971 50 975 7967</p>
+                        </i></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- header -->
+        <header class="contactus-header">
+            <a href="#" class="logo">
+                <img src="img/raiqah-logo.png">
+            </a>
+
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <div class="whatup-icon">
+                    <a href="#"><i class="ri-whatsapp-line"></i></a>
+                </div>
+
+                <div class="phone-icon">
+                    <p class="need">Need help? Talk to an expert</p>
+                    <a href="#"><i class="ri-phone-fill">
+                            <p class="num">+971 50 975 7967</p>
+                        </i></a>
+                </div>
+            </div>
+        </header>
+
+        <!--part 1-->
+        <section class="contactus-part-1">
+            <div class="contactus">
+                <h1>Contact Us</h1>
+                <p>Home <span>/</span> Contact Us</p>
+            </div>
+
+            <div class="contactus-image">
+                <img src="img/page-header-bg.png" alt>
+            </div>
+        </section>
+
+        <img class="vertical-shake" src="img/page-header-shape-1.png" alt>
+
+        <!--part 2-->
+        <section class="contactus-part-2">
+            <div class="contactus-col-left">
+                <h3><i class="ri-subtract-fill"></i>GET IN TOUCH</h3>
+                <h1>Drop a Message</h1>
+
+                <form id="contactusForm" class="contactusForm">
+
+                    <div class="contactus-name-number">
+                        <div class="contactus-form-group1 fullname">
+                            <input type="text" id="fullname"
+                                placeholder="Your Name"><br />
+                            <span id="fullnameError" class="error"></span>
+                        </div>
+
+                        <div class="contactus-form-group2 mobilenumber">
+                            <input type="number" id="mobilenumber"
+                                placeholder="Mobile Number"><br />
+                            <span id="mobilenumberError" class="error"></span>
+                        </div>
+                    </div>
+
+                    <div class="contactus-form-group email">
+                        <input type="text" id="email"
+                            placeholder="Your Email"><br />
+                        <span id="emailError" class="error"></span>
+                    </div>
+
+                    <div class="contactus-form-group subject">
+                        <input type="text" id="subject"
+                            placeholder="Your Subject"><br />
+                        <span id="subjectError" class="error"></span>
+                    </div>
+
+                    <div class="contactus-form-group message">
+                        <textarea type="text" id="message"
+                            placeholder="Message"></textarea><br />
+                        <span id="messageError" class="error"></span>
+                    </div>
+
+                    <div class="contactus-form-group-end submit-btn">
+                        <button type="button"
+                            onclick="validateContactusForm()">SUBMIT
+                            NOW
+                            <i class="ri-arrow-right-line"></i></button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="contactus-col-right">
+                <h2>Our Address</h2>
+                <p>Completely synergize resource taxing relationships<br /> via
+                    premier niche markets. Professionally cultivate<br />
+                    one-to-one
+                    customer service.</p>
+
+                <div class="contactus-col-right-1">
+                    <i class="ri-phone-line"></i>
+                    <div class="contactus-phone-content">
+                        <h3>Phone :</h3>
+                        <p>+971 50 975 7967</p>
+                    </div>
+                </div>
+
+                <div class="contactus-col-right-1">
+                    <i class="ri-map-pin-line"></i>
+                    <div class="contactus-map-content">
+                        <h3>Address :</h3>
+                        <p>403,Ascon House, Salah Al Dim Road, PO<br /> Box
+                            :47653,Dubai-UAE</p>
+                    </div>
+                </div>
+
+                <div class="contactus-col-right-1">
+                    <i class="ri-mail-send-line"></i>
+                    <div class="email-content">
+                        <h3>Email :</h3>
+                        <p>sales@raiqahuae.com</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- line -->
+        <div class="contactus-center-line">
+            <div class="contactus-center-code"></div>
+        </div>
+
+        <!-- map section -->
+
+        <section class="contactus-maps">
+            <div class="contactus-map-part">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0090164773687!2d55.318395624444214!3d25.270282128738316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5cc9e628450f%3A0xc7252be4d3901c1d!2sSalah%20Al%20Din%20Metro%20Station!5e0!3m2!1sen!2sin!4v1720443780516!5m2!1sen!2sin"
+                    width="1200" height="600" style="border:0;" allowfullscreen
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <!-- part 3 -->
+
+        <section class="contactus-part-3">
+            <div class="contactus-map">
+                <i class="ri-map-pin-line"></i>
+                <div class="contactus-map-datails">
+                    <h3 class="contactus-map-address">403,Ascon House, Salah Al
+                        Dim
+                        Road,</h3>
+                    <p>PO Box :47653,Dubai-UAE</p>
+                </div>
+            </div>
+
+            <div class="contactus-e-mail">
+                <i class="ri-mail-send-line"></i>
+                <div class="contactus-email-datails">
+                    <h3>Email us :</h3>
+                    <p>sales@raiqahuae.com</p>
+                </div>
+            </div>
+
+            <div class="contactus-phone">
+                <i class="ri-phone-line"></i>
+                <div class="contactus-phone-datails">
+                    <h3>Call us on :</h3>
+                    <p>+971 50 975 7967</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="contactus-end-line-part-3"></div>
+
+        <!--footer-->
+
+        <section class="footer">
+
+            <div class="footer-image-1">
+                <img src="img/footer-widget-img-1.png">
+            </div>
+
+            <div class="footer-link">
+                <h2>Useful Links</h2>
+                <a href="index.html">
+                    <h3>Home</h3>
+                </a>
+                <a href="aboutus.html">
+                    <h3>About Us</h3>
+                </a>
+                <a href="enquiry.html">
+                    <h3>Enquiry</h3>
+                </a>
+                <a href="portfolio.html">
+                    <h3>Portfolio</h3>
+                </a>
+                <a href="contactus.html">
+                    <h3>Contact Us</h3>
+                </a>
+            </div>
+
+            <div class="footer-service">
+                <h2>Services</h2>
+                <a href="services.html">
+                    <h3>Residential</h3>
+                </a>
+                <a href="services.html">
+                    <h3>Commercial</h3>
+                </a>
+                <a href="services.html">
+                    <h3>Industrial</h3>
+                </a>
+            </div>
+
+            <div class="footer-image-2">
+                <img src="img/raiqah-logo.png">
+                <div class="footer-icon">
+                    <a href="#">
+                        <button>
+                            <i class="ri-facebook-fill"></i>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button>
+                            <i class="ri-linkedin-fill"></i>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button>
+                            <i class="ri-instagram-fill"></i>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button>
+                            <i class="ri-twitter-fill"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="line-code">
+            <div class="line"></div>
+        </div>
+
+        <!--copy right-->
+
+        <section class="end-content">
+            <div class="copy-right">
+                <h3> © Copyright <a href="#">Raiqah</a> 2024 . All rights
+                    reserved.</h3>
+            </div>
+
+            <div class="copy-web">
+                <!-- <div class="end-picture"> -->
+                <img class="horizontal-shake"
+                    src="img/site-footer-shape-1.png">
+                <!-- </div> -->
+                <!-- <div class="develop"> -->
+                <h3> Developed By <a href="https://hinzah.com/">Hinzah
+                        Solutions</a></h3>
+                <!-- <p>CuteWeb</p> -->
+                <!-- </div> -->
+
+            </div>
+        </section>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="js/contactus.js"></script>
+    </body>
+</html>

@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="./img/raiqah-logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Raiqah</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="respansive.css">
+        <!-- <link rel="stylesheet" href="Latenight-responsive.css"/> -->
+
+        <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+
+        <!-- swiper slide -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <!-- scroll animinate -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!-- owl carousel -->
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+            integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+            integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!--tailwindcss link-->
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+        <!-- fontawesome icons link -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- box-icons link -->
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <!-- remix-icons link -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet" />
+
+        <!-- google fonts link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap"
+            rel="stylesheet">
+
+        <!-- scroll animinate -->
+        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+
+        <!--slick slider CDN-->
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+            integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+            integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+
+    <body>
+
+        <!-- preloader start -->
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span data-text-preloader="R" class="letters-loading">
+                        R
+                    </span>
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
+                    </span>
+                    <span data-text-preloader="I" class="letters-loading">
+                        I
+                    </span>
+                    <span data-text-preloader="Q" class="letters-loading">
+                        Q
+                    </span>
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
+                    </span>
+                    <span data-text-preloader="H" class="letters-loading">
+                        H
+                    </span>
+                    <!-- <span data-text-preloader="U" class="letters-loading">
+                        U
+                    </span>
+                    <span data-text-preloader="A" class="letters-loading">
+                        A
+                    </span>
+                    <span data-text-preloader="E" class="letters-loading">
+                        E
+                    </span> -->
+                </div>
+                <p class="text-center" style="color: #fff;">Loading</p>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+        <!-- full body content start-->
+        <div id="full-body" style="display:none;height: auto;">
+
+            <!-- Static Brochure Button -->
+            <button id="brochure" class="brochure"
+                onclick="location.href='brochure.pdf';"
+                title="brochure.pdf">Brochure</button>
+
+            <!-- Static What's up Button -->
+            <button id="whatsupBtn" class="whatsupBtn"
+                title="Go to What's up"><i
+                    class="ri-whatsapp-line"></i></button>
+
+            <!-- Scroll To Top Button -->
+            <button onclick="topFunction()" id="topBtn" class="topBtn"
+                title="Go to top"><i class="ri-arrow-drop-up-line"></i></button>
+
+            <!-- scroll header -->
+            <header id="scroll-header" class="scroll-header">
+                <a href="#" class="scroll-logo">
+                    <img src="img/raiqah-logo.png">
+                </a>
+
+                <ul class="scroll-navlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+
+                <div class="scroll-nav-right">
+                    <div class="scroll-whatup-icon">
+                        <a href="#"><i class="ri-whatsapp-line"></i></a>
+                    </div>
+
+                    <div class="scroll-phone-icon">
+                        <p class="scroll-need">Need help? Talk to an expert</p>
+                        <a href="#"><i class="ri-phone-fill">
+                                <p class="scroll-num">+971 50 975 7967</p>
+                            </i></a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- header -->
+            <header>
+                <a href="#" class="logo">
+                    <img src="img/raiqah-logo.png">
+                </a>
+
+                <ul class="navlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+
+                <div class="nav-right">
+                    <div class="whatup-icon">
+                        <a href="#"><i class="ri-whatsapp-line"></i></a>
+                    </div>
+
+                    <div class="phone-icon">
+                        <p class="need">Need help? Talk to an expert</p>
+                        <a href="#"><i class="ri-phone-fill">
+                                <p class="num">+971 50 975 7967</p>
+                            </i></a>
+                    </div>
+                    <div class="toggle-btn"><i class="ri-menu-line"></i></div>
+                </div>
+
+                <!-- <div class="menu-icon"><i class="ri-menu-line"></i></div> -->
+            </header>
+            <!-- <div class="mobile_nav">
+                hello
+            </div> -->
+            <!-- slider path -->
+
+            <section class="slider">
+                <div class="col-left">
+                    <h2>Emergency Service</h2>
+                    <h1>Trusted & Reliable Electrical Service</h1>
+                    <h3>Same Day Service Facility</h3>
+                    <p>* Call before 12 Noon, Monday - Friday <br />We be there
+                        TODAY</p>
+                    <a href="#" class="btn">HIRE US NOW</a>
+                </div>
+
+                <div class="swiper">
+
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-aos="fade-left">
+                            <img class="swiper-1"
+                                src="img/main-slider-2-1.webp">
+                        </div>
+
+                        <div class="swiper-slide" data-aos="fade-left">
+                            <img class="swiper-2"
+                                src="img/main-slider-2-2.webp">
+                        </div>
+                    </div>
+
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <div class="pagination_">
+                        <!-- <div class="swiper-button-next"><img src="img/next.svg" alt="" ></div>
+                        <div class="swiper-button-prev"><img src="img/back.svg" alt="" ></div> -->
+                        <div class="swiper-button-next"><i
+                                class="ri-arrow-right-line"></i></div>
+                        <div class="swiper-button-prev"><i
+                                class="ri-arrow-left-line"></i></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section part 2 -->
+
+            <section class="part-2">
+                <div class="col-left-1">
+                    <div class="repair-1">
+                        <h1>2+</h1>
+                        <p>Y E A R O F E X P E R I E N C E</p>
+                    </div>
+                    <div class="repair-2">
+                        <h2>Many years of experience in the repair of home
+                            equipment
+                            of various complexity.</h2>
+                    </div>
+                </div>
+
+                <div class="col-right-1">
+                    <div class="customer-1">
+                        <i class="ri-thumb-up-line"></i>
+                    </div>
+                    <div class="customer-2">
+                        <h3>Customers Trust and Love us. We’re rated 5/5 out of
+                            100+
+                            customer reviews.</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section part 3 -->
+            <section class="part-3" id="part-3">
+                <div class="col-left-2" data-aos="fade-right">
+                    <img src="img/about-two-img-1.webp">
+
+                    <div class="number-count">
+                        <h3 id="number" class="number" data-value="151">151
+                            <!-- <i class="ri-add-line"></i> -->
+                        </h3><span>+</span>
+                        <p>Satisfied Clients <br /> Our Locality</p>
+                    </div>
+                </div>
+
+                <div class="col-right-2">
+                    <h3><i class="ri-subtract-fill"></i> ABOUT OUR COMPANY</h3>
+                    <h1>Complete Solution for all Your Raiqah Problems</h1>
+                    <h2>Bring to the table win-win survival strategies to ensure
+                        proactive domination ensure proactive domin.
+                    </h2>
+
+                    <div class="manager">
+                        <div class="manager-photo">
+                            <img src="img/profile.jpeg">
+                            <h2>Mohammed Nazeer</h2>
+                            <h3>Manager</h3>
+                        </div>
+
+                        <div class="manager-content">
+                            <p>At the end of the day, going forward, a new
+                                normal
+                                that has evolved from generation X is on the
+                                runway heading towards a streamlined cloud
+                                solution.
+                                strategies to ensure proactive domination.
+                                At the end of the day,User generated content in
+                                real-time will have multiple touchpoints for
+                                offshoring. At the end of the day,User generated
+                                content in real-time will have multiple
+                                touchpoints for offshoring.</p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <div class="content-1">
+                            <i class="fa-sharp fa-solid fa-circle-check">
+                                <h2>Highly Professional Staff</h2>
+                            </i>
+                            <i class="fa-sharp fa-solid fa-circle-check">
+                                <h2>100% Satisfaction Guarantee</h2>
+                            </i>
+                            <i class="fa-sharp fa-solid fa-circle-check">
+                                <h2>Quality Control System</h2>
+                            </i>
+                        </div>
+
+                        <div class="content-2">
+                            <i class="fa-sharp fa-solid fa-circle-check">
+                                <h2>Accourate Testing Process</h2>
+                            </i>
+                            <i class="fa-sharp fa-solid fa-circle-check">
+                                <h2>100% Satisfaction Guarantee</h2>
+                            </i>
+                            <i class="fa-sharp fa-solid fa-circle-check">
+                                <h2>Quality Control System</h2>
+                            </i>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- services -->
+            <section class="service">
+                <div class="service-1">
+                    <h3><i class="ri-subtract-fill"></i> OUR SERVICES</h3>
+                    <h1>What We Provide</h1>
+                </div>
+                <div class="service-2">
+                    <p>Normal that has evolved from generation X is on the
+                        runway heading towards a streamlined cloud solution.
+                        strategies to ensure proactive domination.</p>
+                </div>
+            </section>
+
+            <!-- service picture -->
+            <!-- <section class="service-picture"> -->
+            <!-- <div class="picture">
+            <img src="img/services-2-1.jpg">
+            <img src="img/services-2-2.jpg">
+            <img src="img/services-2-3.jpg">
+            <img src="img/services-2-4.jpg"> -->
+            <!-- <img src="img/plumbing_work.webp">
+            <img src="img/carpantry_work.webp">
+            <img src="img/ceiling_work.webp">
+            <img src="img/civil_work.webp">
+            <img src="img/painting_work.png"> -->
+            <!-- </div> -->
+            <!-- </section> -->
+
+            <!--image part two-->
+
+            <div class="owl-carousel-one owl-carousel owl-theme">
+
+                <div class="card">
+                    <img src="img/services-2-1.jpg" style="width:100%">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h1>ELV,BMS,Lighting Works</h1>
+                        <p>READ MORE +</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/services-2-2.jpg" style="width:100%">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h1>CCTV<br /> & Access Control</h1>
+                        <p>READ MORE +</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/services-2-3.jpg" style="width:100%">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h1>Electrical Fittings Works</h1>
+                        <p>READ MORE +</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/services-2-4.jpg" style="width:100%">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h1>Airconditioner Service</h1>
+                        <p>READ MORE +</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/civil_work.webp" style="width:100%">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h1>Wall Paper And Minor Civil Works</h1>
+                        <p>READ MORE +</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/painting_work.png" style="width:100%">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h1>Building Cleaning & Painting Works</h1>
+                        <p>READ MORE +</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/plumbing_work.webp" style="width:100%">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h1>Plumbing And Sanitary Works</h1>
+                        <p>READ MORE +</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/ceiling_work.webp" style="width:100%">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h1>Ceiling And Partition Works</h1>
+                        <p>READ MORE +</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/carpantry_work.webp" style="width:100%">
+                    <div class="overlay"></div>
+                    <div class="container">
+                        <h1>Carpentry And Plaster Works</h1>
+                        <p>READ MORE +</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Arrow -->
+            <div class="arrow">
+                <div class="arrow-left">
+                    <button class="left-button">
+                        <i class="ri-arrow-drop-left-line"></i>
+                    </button>
+                </div>
+                <div class="arrow-right">
+                    <button class="right-button">
+                        <i class="ri-arrow-drop-right-line"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- image -->
+            <div class="owl-carousel-two owl-carousel owl-theme">
+
+                <div class="image-1">
+                    <img src="img/services-1-1.jpg">
+                    <div class="overlay"></div>
+                    <div class="text-background">
+                    </div>
+                    <div class="text-block">
+                        <h2>Residential Service <i
+                                class="ri-arrow-right-line"></i></h2>
+                    </div>
+                    <!-- <div class="bottom-background">
+            </div> -->
+                </div>
+
+                <div class="image-2">
+                    <img src="img/services-2-4.jpg">
+                    <div class="overlay"></div>
+                    <div class="text-background">
+                    </div>
+                    <div class="text-block">
+                        <h2>Commercial Service <i
+                                class="ri-arrow-right-line"></i></h2>
+                    </div>
+                    <!-- <div class="bottom-background">
+            </div> -->
+                </div>
+
+                <div class="image-3">
+                    <img src="img/services-1-3.webp">
+                    <div class="overlay"></div>
+                    <div class="text-background">
+                    </div>
+                    <div class="text-block">
+                        <h2>Industrial Service <i
+                                class="ri-arrow-right-line"></i></h2>
+                    </div>
+                    <!-- <div class="bottom-background">
+            </div> -->
+                </div>
+
+            </div>
+            <!-- section part 4 -->
+
+            <section class="part-4" id="part-4">
+                <div class="raiqah-project">
+                    <div class="two-year-box">
+                        <div class="year">
+                            <span>2+</span>
+                            <h3>YEAR</h3>
+                        </div>
+                        <p>Leading The Way In</p>
+                        <h2>Raiqah Projects</h2>
+                    </div>
+                </div>
+
+                <!-- <div class="residential-project"> -->
+                <div class="projects">
+                    <i class="ri-home-office-line"></i><br />
+                    <h3 class="counter" data-target="80">0</h3><span
+                        class="project-counter-1">+</span>
+                    <p>Residential <br />Projects</p>
+                </div>
+
+                <!-- <div class="commercial-projects"> -->
+                <div class="projects">
+                    <i class="ri-building-4-line"></i><br />
+                    <h3 class="counter" data-target="40">0</h3><span
+                        class="project-counter-1">+</span>
+                    <p>Commercial <br />Projects</p>
+                </div>
+
+                <!-- <div class="customer-satisfaction"> -->
+                <div class="projects">
+                    <i class="ri-thumb-up-line"></i><br />
+                    <h3 class="counter" data-target="150">0</h3><span
+                        class="project-counter-2">+</span>
+                    <p>Customer <br />Satisfaction</p>
+                </div>
+            </section>
+
+            <!-- section part 5 -->
+            <div class="part-5">
+                <div class="work">
+                    <h3><i class="ri-subtract-fill"></i> OUR WORK</h3>
+                    <h1>Our Recent Projects</h1>
+                    <div class="side-arrow">
+                        <div class="side-arrow-left">
+                            <button class="side-left-button">
+                                <i class="ri-arrow-left-line"></i>
+                            </button>
+                        </div>
+                        <div class="side-arrow-right">
+                            <button class="side-right-button">
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-carousel-three owl-carousel owl-theme">
+                    <div class="work-image-1">
+                        <img src="img/project-2-1.jpg">
+                        <div class="image-content">
+                            <button><i
+                                    class="ri-expand-diagonal-line"></i></button><br />
+                            <button><i class="ri-links-line"></i></button>
+                            <h3>Loxis Project</h3>
+                            <h2>Electrical Fixes</h2>
+                        </div>
+                    </div>
+
+                    <div class="work-image-2">
+                        <img src="img/project-2-2.jpg">
+                        <div class="image-content">
+                            <button><i
+                                    class="ri-expand-diagonal-line"></i></button><br />
+                            <button><i class="ri-links-line"></i></button>
+                            <h3>Loxis Project</h3>
+                            <h2>Electrical Fixes</h2>
+                        </div>
+                    </div>
+
+                    <div class="work-image-3">
+                        <img src="img/project-2-3.jpg">
+                        <div class="image-content">
+                            <button><i
+                                    class="ri-expand-diagonal-line"></i></button><br />
+                            <button><i class="ri-links-line"></i></button>
+                            <h3>Loxis Project</h3>
+                            <h2>Electrical Fixes</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- section part 6 -->
+            <section class="part-6">
+                <div class="color">
+                    <div class="first-color"></div>
+                    <div class="second-color"></div>
+                </div>
+
+                <div class="contact-1">
+                    <i class="ri-user-settings-line"></i>
+                    <div class="contact-bar-1">
+                        <h1>Do You Want Free Diagnostics ?</h1>
+                        <p>Get free diagnostics when ording online from our
+                            website</p>
+                    </div>
+                </div>
+
+                <div class="contact-2">
+                    <div class="call-icon-image">
+                        <img src="img/contact-bar-call-icon.png">
+                    </div>
+
+                    <div class="contact-bar-2">
+                        <h1>+971 50 975 7967</h1>
+                        <p>Monday - Saturday : 9.30 am - 6.00 pm</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section part 7 -->
+            <section class="part-7">
+                <div class="background-image">
+                    <img src="img/testimonials-one-shape-1.png">
+                </div>
+
+                <div class="engineer">
+                    <div class="test">
+                        <h3><i class="ri-subtract-fill"></i> TESTIMONIALS</h3>
+                        <h1>What They Say About Our Service</h1>
+                        <!-- <h1>About Our</h1>
+                        <h1>Service</h1> -->
+                        <p>We provide the hightest- quality <br />service to our
+                            customers.</p>
+                    </div>
+
+                    <div class="engineer-content">
+                        <!-- <div class="engineer-photo"> -->
+                        <img src="img/shareef.jpeg">
+                        <!-- </div> -->
+
+                        <div class="engineer-details">
+                            <p>"I recently contacted Raiqah's for CCTV
+                                installation.
+                                The team efficiently installed the systems in a
+                                timely manner.The quality of the work was
+                                excellent."
+                            </p>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="engineer-name">
+                    <h1>Nainer Shareef</h1>
+                    <h3>ENGINEER</h3>
+                </div>
+
+                <div class="engineer-arrow">
+                    <div class="engineer-arrow-left">
+                        <button class="left-arrow-button"><i
+                                class="ri-arrow-left-line"></i></button>
+                    </div>
+                    <div class="engineer-arrow-right">
+                        <button class="right-arrow-button"><i
+                                class="ri-arrow-right-line"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section part 8 -->
+            <section class="part-8">
+                <div class="professional-image">
+                    <img src="img/why-choose-one-img-1.jpg">
+                </div>
+
+                <div class="professional">
+                    <h3><i class="ri-subtract-fill"></i> OUR PROFESSIONALS</h3>
+                    <h1>Why Choose Us</h1>
+                    <p>If you need to repair or replace your Plumbing system,
+                        call today and talk to one of our Plumbing
+                        specialists. They’ll answer all your questions and
+                        arrange an appointment at your convenience.
+                        They’ll answer all your questions and arrange an
+                        appointment at your convenience.</p>
+                    <div class="professional-content">
+                        <div class="professional-content-1">
+                            <i class="ri-arrow-right-line">
+                                <h2>Use best materials and labor in every
+                                    project.</h2>
+                            </i>
+                            <i class="ri-arrow-right-line">
+                                <h2>Integrity and honesty from top to
+                                    bottom.</h2>
+                            </i>
+                            <i class="ri-arrow-right-line">
+                                <h2>Affordable and fair prices.</h2>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section part 9 -->
+            <section class="part-9">
+
+                <div class="company">
+                    <i class="ri-medal-line"></i>
+                    <div class="company-content">
+                        <h2>Awarded Company</h2>
+                        <p>
+                            There are many variations passages<br />
+                            of Lorem Ipsum available, but the<br />
+                            majority have suffered alter.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="worker">
+                    <i class="ri-team-line"></i>
+                    <div class="worker-content">
+                        <h2>Trained Workers</h2>
+                        <p>
+                            There are many variations passages<br />
+                            of Lorem Ipsum available, but the<br />
+                            majority have suffered alter.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="leader">
+                    <i class="ri-flag-2-line"></i>
+                    <div class="leader-content">
+                        <h2>Industry Leader</h2>
+                        <p>
+                            There are many variations passages<br />
+                            of Lorem Ipsum available, but the<br />
+                            majority have suffered alter.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- section part 10 -->
+
+            <section class="home-part-10">
+                <div class="home-map">
+                    <i class="ri-map-pin-line"></i>
+                    <div class="home-map-datails">
+                        <h3 class="home-map-address">403,Ascon House, Salah Al
+                            Dim
+                            Road,</h3>
+                        <p>PO Box :47653,Dubai-UAE</p>
+                    </div>
+                </div>
+
+                <div class="home-email">
+                    <i class="ri-mail-send-line"></i>
+                    <div class="home-email-datails">
+                        <h3>Email us :</h3>
+                        <p>sales@raiqahuae.com</p>
+                    </div>
+                </div>
+
+                <div class="home-phone">
+                    <i class="ri-phone-line"></i>
+                    <div class="home-phone-datails">
+                        <h3>Call us on :</h3>
+                        <p>+971 50 975 7967</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="end-line-part-10"></div>
+
+            <!--footer-->
+
+            <section class="footer">
+
+                <div class="footer-image-1">
+                    <img src="img/footer-widget-img-1.png">
+                </div>
+
+                <div class="footer-link">
+                    <h2>Useful Links</h2>
+                    <a href="index.html">
+                        <h3>Home</h3>
+                    </a>
+                    <a href="aboutus.html">
+                        <h3>About Us</h3>
+                    </a>
+                    <a href="enquiry.html">
+                        <h3>Enquiry</h3>
+                    </a>
+                    <a href="portfolio.html">
+                        <h3>Portfolio</h3>
+                    </a>
+                    <a href="contactus.html">
+                        <h3>Contact Us</h3>
+                    </a>
+                </div>
+
+                <div class="footer-service">
+                    <h2>Services</h2>
+                    <a href="services.html">
+                        <h3>Residential</h3>
+                    </a>
+                    <a href="services.html">
+                        <h3>Commercial</h3>
+                    </a>
+                    <a href="services.html">
+                        <h3>Industrial</h3>
+                    </a>
+                </div>
+
+                <div class="footer-image-2">
+                    <img src="img/raiqah-logo.png">
+                    <div class="footer-icon">
+                        <a href="#">
+                            <button>
+                                <i class="ri-facebook-fill"></i>
+                            </button>
+                        </a>
+                        <a href="#">
+                            <button>
+                                <i class="ri-linkedin-fill"></i>
+                            </button>
+                        </a>
+                        <a href="#">
+                            <button>
+                                <i class="ri-instagram-fill"></i>
+                            </button>
+                        </a>
+                        <a href="#">
+                            <button>
+                                <i class="ri-twitter-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="line-code">
+                <div class="line"></div>
+            </div>
+
+            <!--copy right-->
+
+            <section class="end-content">
+                <div class="copy-right">
+                    <h3> © Copyright <a href="#">Raiqah</a> 2024 . All rights
+                        reserved.</h3>
+                </div>
+
+                <div class="copy-web">
+                    <!-- <div class="end-picture"> -->
+                    <img class="horizontal-shake"
+                        src="img/site-footer-shape-1.png">
+                    <!-- </div> -->
+                    <!-- <div class="develop"> -->
+                    <h3> Developed By <a href="https://hinzah.com/">Hinzah
+                            Solutions</a></h3>
+                    <!-- <p>CuteWeb</p> -->
+                    <!-- </div> -->
+
+                </div>
+            </section>
+            <!--copy right end-->
+
+        </div>
+        <!-- full body content end-->
+
+        <!-- <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js"
+            integrity="sha512-KgffulL3mxrOsDicgQWA11O6q6oKeWcV00VxgfJw4TcM8XRQT8Df9EsrYxDf7tpVpfl3qcYD96BpyPvA4d1FDQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+            integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+        <!--owl carousel-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!--swiper slide-->
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+        </script>
+
+        <!-- /====================================== -->
+
+        <!--jquery CDN-->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+        <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+
+        <!--waypoints CDN-->
+        <!-- <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script> -->
+
+        <!--counterup CDN-->
+        <!-- <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> -->
+
+        <!-- ======================================/ -->
+
+        <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
+
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script> -->
+        <!-- <script src="https://cdn.jsdelivr.net/npm/waypoints/lib/jquery.waypoints.min.js"></script> -->
+
+        <!-- scroll animinate -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+             AOS.init({
+               offset:300,
+               duration:1450,
+             });
+
+            //  $(document).ready(function(){
+            //   $('.counter').counterUp({
+            //     delay: 10,
+            //     time: 1200
+            //   });
+            // });
+        </script>
+
+        <script src="js/index.js"></script>
+        <script>
+            const toggleIcon = document.querySelector(".toggle-btn");
+            const mobile_nav = document.querySelector(".mobile_nav");
+
+            toggleIcon.addEventListener("click",()=>{
+                mobile_nav.classList.toggle("open")
+                toggleIcon.classList.toggle("opened");
+                if(toggleIcon.className.includes("opened")){
+                    toggleIcon.children[0].className=`ri-close-large-fill`;
+                   const clone= document.querySelector(".navlist").children;
+                    [...clone].forEach(item=>{
+                        mobile_nav.append(item)
+                    }
+                    )
+                    
+                }
+                else{
+                    toggleIcon.children[0].className=`ri-menu-line`;
+
+                }
+            })
+        </script>
+    </body>
+
+</html>
